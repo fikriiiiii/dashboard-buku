@@ -12,14 +12,14 @@ const sidebar = () => {
             </h1>
             <hr />
             <ul className="text-white pt-10">
-              <li className="mb-6 hover:bg-sky-700 px-6 py-2">
-                <Link href="/components/dashboard">DASHBOARD</Link>
+              <li className="mb-6">
+                <Link href="/components/dashboard" className="hover:font-black px-6 py-2">DASHBOARD</Link>
               </li>
-              <li className="mb-6 hover:bg-sky-700 px-6 py-2">
-                <Link href="/components/buku">BUKU</Link>
+              <li className="mb-6">
+                <Link href="/components/buku" className="hover:font-black px-6 py-2">BUKU</Link>
               </li>
-              <li className="mb-6 hover:bg-sky-700 px-6 py-2">
-                <Link href="#">LOGOUT</Link>
+              <li className="mb-6">
+                <Link href="#" className="hover:font-black px-6 py-2">LOGOUT</Link>
               </li>
             </ul>
           </section>
